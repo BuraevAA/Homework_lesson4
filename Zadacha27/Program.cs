@@ -8,7 +8,7 @@ int Num = Convert.ToInt32(Console.ReadLine());
 int Sumnum(int Num)
 {
     int sum = 0;
-    if(Num ==0) sum = 0;
+    if(Num == 0) sum = 0;
     while(Num != 0)
     {
         sum = sum + (Num % 10);
